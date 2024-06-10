@@ -1,0 +1,72 @@
+.styleList {
+  position: relative;
+}
+.styleList img {
+  filter: brightness(0.6);
+  object-fit: cover;
+  width: 100%;
+  height: 20rem;
+  overflow: hidden;
+  opacity: 0.9;
+  z-index: -1;
+}
+.styleList1 {
+  position: absolute;
+  top: 1rem;
+  left: 25rem;
+}
+.styleList1 h2 {
+  font-size: 2.5rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  padding-top: 0px;
+  color: #333333;
+  color: white;
+}
+.styleList1 h2:after {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 2px;
+  background-color: white;
+  margin: 2rem auto;
+}
+.styleList1 p {
+  font-size: 1rem;
+  color: #bdbdbd;
+  line-height: 1.4;
+  margin-bottom: 2rem;
+}
+.styleList1 button {
+  padding: 0.5rem 2rem;
+  margin-top: 2rem;
+  color: white;
+  display: block;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  margin: auto;
+}
+.styleList1 button:before {
+  width: 0%;
+  height: 100%;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #ff9b51;
+  transition: all 0.5s;
+  z-index: -1;
+}
+.styleList1 button:hover:before {
+  width: 100%;
+}
+.styleList1 button:hover {
+  color: white;
+}
+.stylish .container {
+  padding: 60px;
+}

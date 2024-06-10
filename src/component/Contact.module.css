@@ -1,0 +1,99 @@
+.contact {
+  position: relative;
+}
+.contact h2 {
+  font-size: 3rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding-top: 3rem;
+  color: #333333;
+}
+.contact h2:after {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 2px;
+  background-color: #ff9b51;
+  margin: 2rem auto;
+}
+.contact p {
+  font-size: 1rem;
+  color: #bdbdbd;
+  line-height: 1.4;
+}
+
+.contactInput {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 4rem 12rem;
+  text-align: left;
+}
+
+textarea {
+  margin: 0rem 0 0.5rem 4rem;
+  border: none;
+  border-bottom: 3px solid #bdbdbd;
+  box-shadow: none;
+  border-radius: 0px;
+  width: 80%;
+  color: #bdbdbd;
+  font-size: 1rem;
+  padding: 1rem;
+  margin: 0.5rem;
+  opacity: 0.5;
+}
+.formControl1 {
+  border: none;
+  box-shadow: none;
+  border-bottom: 3px solid #bdbdbd;
+  border-radius: 0px;
+  width: 80%;
+  color: #bdbdbd;
+  font-size: 1rem;
+  padding: 1rem;
+  margin: 0.5rem;
+  opacity: 0.5;
+}
+
+.formControl {
+  border: none;
+  box-shadow: none;
+  border-bottom: 1px solid #bdbdbd;
+  border-radius: 0px;
+  width: 80%;
+  color: #bdbdbd;
+  font-size: 1rem;
+  padding: 1rem;
+  margin: 0.5rem;
+  opacity: 0.5;
+}
+
+.contact button {
+  background-color: #ff9b51;
+  color: white;
+  padding: 1rem 1.5rem;
+  margin: 0 auto 5rem auto;
+  display: block;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  border-radius: 0.25rem;
+  text-align: center;
+}
+.contact button:before {
+  width: 0%;
+  height: 100%;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #333333;
+  transition: all 0.5s;
+  z-index: -1;
+}
+.contact button:hover:before {
+  width: 100%;
+}
+.contact button:hover {
+  color: white;
+}

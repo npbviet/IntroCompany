@@ -1,0 +1,56 @@
+.sub {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 7rem 12rem;
+  text-align: left;
+}
+.sub img {
+  margin: 3rem 0;
+  width: 27rem;
+  height: 19rem;
+  box-shadow: 0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.5);
+}
+.sub2 {
+  padding: 0 5rem;
+}
+.sub h4 {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-top: 0;
+}
+.sub h4::after {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 2px;
+  background-color: #ff9b51;
+  margin: 1rem 0;
+}
+.sub p {
+  font-size: 1rem;
+  color: #bdbdbd;
+  line-height: 1.4;
+}
+.sub3 {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+}
+
+.sub .icon {
+  color: #ff9b51;
+  border: 2px solid #ff9b51;
+  padding: 0.5rem;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  text-align: center;
+  margin: 2rem 0;
+}
+.sub3 h5 {
+  font-weight: bold;
+  font-size: 1rem;
+  margin: 1rem 0 0 0;
+}
+.sub3 p {
+  margin-top: 0;
+}

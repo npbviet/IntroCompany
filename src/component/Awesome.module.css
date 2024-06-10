@@ -1,0 +1,39 @@
+.awesome {
+  padding: 4rem 12rem;
+}
+.awesome h2 {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  padding-top: 0px;
+  color: #333333;
+  font-weight: 400;
+}
+.awesome h2:after {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 2px;
+  background-color: #ff9b51;
+  margin: 1rem auto;
+}
+.awesome p {
+  font-size: 1rem;
+  color: #bdbdbd;
+  line-height: 1.4;
+}
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1.5rem;
+}
+.icon {
+  color: #ff9b51;
+  border: 2px solid #ff9b51;
+  padding: 1.5rem;
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  line-height: 50px;
+  text-align: center;
+  margin: 1rem auto;
+}
