@@ -1,7 +1,6 @@
 .footer {
   background-color: #000000;
   padding: 10px;
-  /* position: fixed; */
   right: 0;
   left: 0;
   padding: 0.5rem 12rem;
@@ -13,4 +12,21 @@
   padding: 1rem;
   width: 1.5rem;
   height: 1.5rem;
+}
+
+@media only screen and (max-width: 1024px) {
+}
+@media only screen and (max-width: 768px) {
+}
+@media only screen and (max-width: 480px) {
+  .footer {
+    padding: 2rem;
+  }
+}
+@media only screen and (max-width: 360px) {
+  .footer .icon {
+    padding: 0.5rem;
+  }
+}
+@media only screen and (max-width: 240px) {
 }

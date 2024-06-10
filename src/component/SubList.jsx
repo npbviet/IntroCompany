@@ -21,7 +21,7 @@ function SubList() {
             </p>
           </div>
           <div className={styles.sub3}>
-            <div>
+            <div className={styles.icons}>
               <FontAwesomeIcon
                 className={styles.icon}
                 icon="fa-solid fa-cloud-arrow-down"
@@ -36,7 +36,7 @@ function SubList() {
             </div>
           </div>
           <div className={styles.sub3}>
-            <div>
+            <div className={styles.icons}>
               <FontAwesomeIcon
                 className={styles.icon}
                 icon="fa-solid fa-cloud-arrow-up"

@@ -13,7 +13,8 @@
 .styleList1 {
   position: absolute;
   top: 1rem;
-  left: 25rem;
+  left: 15%;
+  width: 70%;
 }
 .styleList1 h2 {
   font-size: 2.5rem;
@@ -69,4 +70,14 @@
 }
 .stylish .container {
   padding: 60px;
+}
+@media only screen and (max-width: 360px) {
+  .styleList1 h2 {
+    font-size: 1.5rem;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .styleList img {
+    height: 23rem;
+  }
 }

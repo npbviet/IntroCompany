@@ -18,28 +18,6 @@ import { far } from "@fortawesome/free-regular-svg-icons";
 
 library.add(fab, fas, far);
 function App() {
-  //Save dữ liệu lên firebase
-
-  // async function addMessage(e) {
-  //   e.preventDefault();
-
-  //   const newMessage = {
-  //     name: e.target.username.value,
-  //     email: e.target.email.value,
-  //     subject: e.target.subject.value,
-  //     message: e.target.message.value,
-  //   };
-  //   const response = await fetch(
-  //     "https://usermessage-d4cf2-default-rtdb.firebaseio.com/message.json",
-  //     {
-  //       method: "POST",
-  //       body: JSON.stringify(newMessage),
-  //     }
-  //   );
-  //   console.log(await response.json());
-  // }
-  //Hoàn thành save dữ liệu firebase
-
   return (
     <>
       <NavBar />

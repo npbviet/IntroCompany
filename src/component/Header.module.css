@@ -13,10 +13,11 @@
   top: 5rem;
   padding: 0 12rem;
   grid-template-columns: 1fr 1fr;
+  align-items: center;
 }
 .description {
   text-align: left;
-  width: 35rem;
+  width: 90%;
 }
 .header h1 {
   font-weight: bold;
@@ -25,7 +26,7 @@
   margin-bottom: 0.5rem;
 }
 .subText {
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: white;
   margin: 0;
   line-height: 1.438;
@@ -79,8 +80,7 @@
 }
 
 .submitForm {
-  padding-top: 7rem;
-  padding-left: 12rem;
+  justify-self: right;
 }
 .header form {
   background-color: white;
@@ -88,6 +88,7 @@
   width: 23rem;
   height: 23rem;
   overflow: hidden;
+  margin-top: 5rem;
 }
 .header form h3 {
   background-color: #f5f5f5;
@@ -122,4 +123,60 @@
   margin-top: 2.8rem;
   background-color: #ff9b51;
   font-size: 1.2rem;
+}
+@media only screen and (max-width: 1024px) {
+  .container {
+    grid-template-columns: 1fr;
+    padding: 0 8rem;
+  }
+  .header img {
+    height: 100vh;
+  }
+  .submitForm {
+    justify-self: center;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .description h1 {
+    margin-top: 1rem;
+  }
+  .submitForm form {
+    margin-top: 2rem;
+  }
+  .header img {
+    height: 110vh;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .container {
+    top: 5rem;
+    padding: 0 2rem;
+    grid-template-columns: 1fr;
+  }
+  .header img {
+    height: 150vh;
+  }
+  .submitForm form {
+    margin-top: 20%;
+    width: 95%;
+  }
+  .subText {
+    font-size: 1.5rem;
+  }
+}
+@media only screen and (max-width: 360px) {
+  .submitForm form {
+    height: 95%;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .header img {
+    height: 240vh;
+  }
+  .description h1 {
+    font-size: 2.5rem;
+  }
+  .subText {
+    font-size: 1.5rem;
+  }
 }

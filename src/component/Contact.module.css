@@ -97,3 +97,18 @@ textarea {
 .contact button:hover {
   color: white;
 }
+
+@media only screen and (max-width: 1024px) {
+}
+@media only screen and (max-width: 768px) {
+}
+@media only screen and (max-width: 480px) {
+  .contactInput {
+    grid-template-columns: 1fr;
+    padding: 2rem;
+  }
+}
+@media only screen and (max-width: 320px) {
+}
+@media only screen and (max-width: 240px) {
+}

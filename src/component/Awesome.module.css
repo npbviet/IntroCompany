@@ -37,3 +37,30 @@
   text-align: center;
   margin: 1rem auto;
 }
+
+@media only screen and (max-width: 1024px) {
+  .awesome {
+    padding: 2rem 8rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+}
+@media only screen and (max-width: 480px) {
+  .awesome {
+    padding: 10%;
+    width: 80%;
+  }
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .icon {
+    height: 2rem;
+    width: 2rem;
+    margin: 0;
+  }
+  .awesome h2 {
+    font-size: 2rem;
+  }
+}
