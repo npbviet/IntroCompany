@@ -71,6 +71,11 @@
 .stylish .container {
   padding: 60px;
 }
+@media only screen and (max-width: 480px) {
+  .styleList img {
+    height: 60vh;
+  }
+}
 @media only screen and (max-width: 360px) {
   .styleList1 h2 {
     font-size: 1.5rem;
